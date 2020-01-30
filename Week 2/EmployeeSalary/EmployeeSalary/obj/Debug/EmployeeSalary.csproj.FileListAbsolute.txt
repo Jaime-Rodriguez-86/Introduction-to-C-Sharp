@@ -1,0 +1,9 @@
+C:\Users\jaime\source\repos\EmployeeSalary\EmployeeSalary\bin\Debug\EmployeeSalary.exe.config
+C:\Users\jaime\source\repos\EmployeeSalary\EmployeeSalary\bin\Debug\EmployeeSalary.exe
+C:\Users\jaime\source\repos\EmployeeSalary\EmployeeSalary\bin\Debug\EmployeeSalary.pdb
+C:\Users\jaime\source\repos\EmployeeSalary\EmployeeSalary\obj\Debug\EmployeeSalary.csprojAssemblyReference.cache
+C:\Users\jaime\source\repos\EmployeeSalary\EmployeeSalary\obj\Debug\EmployeeSalary.EmployeeSalaryForm.resources
+C:\Users\jaime\source\repos\EmployeeSalary\EmployeeSalary\obj\Debug\EmployeeSalary.Properties.Resources.resources
+C:\Users\jaime\source\repos\EmployeeSalary\EmployeeSalary\obj\Debug\EmployeeSalary.csproj.GenerateResource.cache
+C:\Users\jaime\source\repos\EmployeeSalary\EmployeeSalary\obj\Debug\EmployeeSalary.exe
+C:\Users\jaime\source\repos\EmployeeSalary\EmployeeSalary\obj\Debug\EmployeeSalary.pdb
