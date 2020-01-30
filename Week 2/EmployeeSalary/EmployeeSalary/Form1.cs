@@ -1,13 +1,5 @@
-﻿/*
-*
-* Student Jaime Rodriguez
-* Bellevue University
-* CIS355
-*
-*/
-/* File EmployeeSalary.cs */
 /*
-* Assignment 2.2
+*
 * Purpose: Provide a user with their
 * future salary based on their current
 * salary and a 4% pay increase
