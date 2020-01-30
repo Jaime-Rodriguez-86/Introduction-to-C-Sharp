@@ -1,13 +1,5 @@
-﻿/*
-*
-* Student Jaime Rodriguez
-* Bellevue University
-* CIS355
-* 
-*/
-/* File EggsInteractiveGUI.cs */
 /*
-* Assignment 2.3
+*
 * Purpose: Calculate the number
 * of dozens and remainder egss
 * based off total given by user
