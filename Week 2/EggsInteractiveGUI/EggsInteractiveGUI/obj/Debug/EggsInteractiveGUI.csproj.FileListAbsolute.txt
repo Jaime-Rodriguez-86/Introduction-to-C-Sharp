@@ -1,0 +1,9 @@
+C:\Users\jaime\source\repos\EggsInteractiveGUI\EggsInteractiveGUI\bin\Debug\EggsInteractiveGUI.exe.config
+C:\Users\jaime\source\repos\EggsInteractiveGUI\EggsInteractiveGUI\bin\Debug\EggsInteractiveGUI.exe
+C:\Users\jaime\source\repos\EggsInteractiveGUI\EggsInteractiveGUI\bin\Debug\EggsInteractiveGUI.pdb
+C:\Users\jaime\source\repos\EggsInteractiveGUI\EggsInteractiveGUI\obj\Debug\EggsInteractiveGUI.csprojAssemblyReference.cache
+C:\Users\jaime\source\repos\EggsInteractiveGUI\EggsInteractiveGUI\obj\Debug\EggsInteractiveGUI.eggsInteractiveForm.resources
+C:\Users\jaime\source\repos\EggsInteractiveGUI\EggsInteractiveGUI\obj\Debug\EggsInteractiveGUI.Properties.Resources.resources
+C:\Users\jaime\source\repos\EggsInteractiveGUI\EggsInteractiveGUI\obj\Debug\EggsInteractiveGUI.csproj.GenerateResource.cache
+C:\Users\jaime\source\repos\EggsInteractiveGUI\EggsInteractiveGUI\obj\Debug\EggsInteractiveGUI.exe
+C:\Users\jaime\source\repos\EggsInteractiveGUI\EggsInteractiveGUI\obj\Debug\EggsInteractiveGUI.pdb
