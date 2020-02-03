@@ -13,8 +13,8 @@ public class Program
 		guess = Convert.ToInt32(guessString);
 		
 		Random ranNumberGenerator = new Random();
-     	int randomNumber;
-     	randomNumber = ranNumberGenerator.Next(1, 11);
+     		int randomNumber;
+     		randomNumber = ranNumberGenerator.Next(1, 11);
 		
 		if(guess == randomNumber)
 			Console.WriteLine("Great guess! Your number is a match!");
