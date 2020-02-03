@@ -28,9 +28,9 @@ namespace DailyTemps
        			string temperatureString;
 			int temperature;
 		
-			Console.Write ("Enter a temperature between -20 and 130 degrees Fahrenheit. When finished enter ##. ");
+			Write ("Enter a temperature between -20 and 130 degrees Fahrenheit. When finished enter ##. ");
 		
-			temperatureString = Console.ReadLine();
+			temperatureString = ReadLine();
 			temperature = Convert.ToInt32(temperatureString);
 			
 			//Run after receiving user input
@@ -40,21 +40,21 @@ namespace DailyTemps
 				while(temperature < LOW || temperature > HIGH)
 				{
 					Console.Write("Input of {0} is not a valid temperature. Enter a valid temperature.", temperatureString);
-					temperatureString = Console.ReadLine();
+					temperatureString = ReadLine();
 					temperature = Convert.ToInt32(temperatureString);
 				}
 			//If user input is valid
 			sum += temperature;
 			count++;
 			Console.Write ("Enter a temperature between -20 and 130 degrees Fahrenheit. When finished enter ##.");
-			temperatureString = Console.ReadLine();
+			temperatureString = ReadLine();
 			}
 		
 			//Run to finish and terminate program
 			if(temperatureString == "##")
 			{
 				average = sum / count;
-				Console.WriteLine("The number of temperatures entered was {0} with an average of {1}.", count, average);
+				WriteLine("The number of temperatures entered was {0} with an average of {1}.", count, average);
 			}
 		}
 	}
