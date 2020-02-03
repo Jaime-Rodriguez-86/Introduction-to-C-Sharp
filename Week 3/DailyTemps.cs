@@ -4,13 +4,12 @@ public class Program
 {
 	public static void Main()
 	{
-	
 		const int LOW = -20;
 		const int HIGH = 130;
 		int sum = 0;
 		int count = 0;
 		double average = 0;
-        string temperatureString;
+       		string temperatureString;
 		int temperature;
 		
 		Console.Write ("Enter a temperature between -20 and 130 degrees Fahrenheit. When finished enter ##.");
