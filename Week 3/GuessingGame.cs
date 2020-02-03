@@ -1,30 +1,51 @@
+/*
+* Purpose: Have a user take a guess at
+* the number that will be randomly generated.
+* Console will let user know if they were too
+* high, low, or a match
+*
+* To compile the program:
+* csc GuessingGame.cs
+*
+* To execute the program:
+* GuessingGame.exe (.exe optional)
+*
+*/
+
 using System;
-					
-public class Program
+using static System.Console;
+
+namespace GuessingGame
 {
-	public static void Main()
+					
+	public class Program
 	{
-		string guessString;
-		int guess;
+		public static void Main()
+		{
+			string guessString;
+			int guess;
 		
-		Console.WriteLine("WELCOME TO THE GUESSING GAME!");
-		Console.Write("Enter a number from 1 to 10: ");
-		guessString = Console.ReadLine();
-		guess = Convert.ToInt32(guessString);
+			WriteLine("WELCOME TO THE GUESSING GAME!");
+			Write("Enter a number from 1 to 10: ");
+			guessString = ReadLine();
+			guess = Convert.ToInt32(guessString);
 		
-		Random ranNumberGenerator = new Random();
-     		int randomNumber;
-     		randomNumber = ranNumberGenerator.Next(1, 11);
+			//Generate random number from 1-10
+			Random ranNumberGenerator = new Random();
+     			int randomNumber;
+     			randomNumber = ranNumberGenerator.Next(1, 11);
 		
-		if(guess == randomNumber)
-			Console.WriteLine("Great guess! Your number is a match!");
-		else
-			if(guess > randomNumber)
-				Console.WriteLine("Sorry the winning number is {0}. Your guess of {1} is too high.", randomNumber, guess);
-		else
-			if(guess < randomNumber)
-				Console.WriteLine("Sorry the winning number is {0}. Your guess of {1} is too low.", randomNumber, guess);
-		
-		
+			//If number matches
+			if(guess == randomNumber)
+				WriteLine("Great guess! Your number is a match!");
+			else
+				//If number is too high
+				if(guess > randomNumber)
+					WriteLine("Sorry the winning number is {0}. Your guess of {1} is too high.", randomNumber, guess);
+			else
+				//If number is too low
+				if(guess < randomNumber)
+					WriteLine("Sorry the winning number is {0}. Your guess of {1} is too low.", randomNumber, guess);	
+		}
 	}
 }
