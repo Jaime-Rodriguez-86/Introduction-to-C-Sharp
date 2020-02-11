@@ -35,8 +35,6 @@ namespace FineForOverdueBooks
 			WriteLine("\n-------------Fine Statement-------------");
 			WriteLine("You had {0} book(s) for {0} extra day(s).", numberOfBooks, numberOfDays);
 			WriteLine("The fee is {0}.", myFines.ToString("C"));
-
-
 		}
 
 		private static double CalcFines(double days, double books)
