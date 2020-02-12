@@ -49,7 +49,7 @@ namespace ArrayDemo
 
 				userInput = Convert.ToInt32(ReadLine());
 
-				//Correct user input check
+				//Incorrect user input check
 				if (userInput != 000 && (userInput < 1 || userInput > 3))
 				{
 					WriteLine("*** INVALID INPUT *** Enter 1,2,3 or 000 to terminate");
