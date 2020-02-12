@@ -28,13 +28,13 @@ namespace DailyTemps
        			string temperatureString;
 			int temperature;
 		
-			Write ("Enter a temperature between -20 and 130 degrees Fahrenheit. When finished enter ##. ");
+			Write ("Enter a temperature between -20 and 130 degrees Fahrenheit. When finished enter 000. ");
 		
 			temperatureString = ReadLine();
 			temperature = Convert.ToInt32(temperatureString);
 			
 			//Run after receiving user input
-			while(temperatureString != "##")
+			while(temperature != 000)
 			{
 				//If user input is invalid
 				while(temperature < LOW || temperature > HIGH)
@@ -48,10 +48,11 @@ namespace DailyTemps
 			count++;
 			Console.Write ("Enter a temperature between -20 and 130 degrees Fahrenheit. When finished enter ##.");
 			temperatureString = ReadLine();
+			temperature = Convert.ToInt32(temperatureString);
 			}
 		
 			//Run to finish and terminate program
-			if(temperatureString == "##")
+			if(temperature == 000)
 			{
 				average = sum / count;
 				WriteLine("The number of temperatures entered was {0} with an average of {1}.", count, average);
