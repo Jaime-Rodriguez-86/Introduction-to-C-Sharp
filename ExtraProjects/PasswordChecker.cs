@@ -1,4 +1,4 @@
-*/Purpose:Receive a users password
+/*Purpose:Receive a users password
 * and return a score (from 1-5)
 * based on how many of the factors
 * they included. Output will
