@@ -1,4 +1,14 @@
-﻿using System;
+/*
+*Write, compile, and test a console application named Auction 
+*that allows a user to enter an amount bid on an online auction item.  
+*Include three overloaded methods that accept an int, double, or string bid.  
+*Each method should display the bid and indicate whether it is over the minimum 
+*acceptable bid of $10.  If the bid is a string, accept it only if one of the 
+*follow is true: it is numeric and preceded with a dollar sign, or it is numeric 
+*and followed by the word dollars.  Otherwise, display a message that indicates the format was incorrect.
+*/
+
+using System;
 using static System.Console;
 using System.Text.RegularExpressions;
 
