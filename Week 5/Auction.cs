@@ -1,11 +1,13 @@
 /*
-*Write, compile, and test a console application named Auction 
-*that allows a user to enter an amount bid on an online auction item.  
-*Include three overloaded methods that accept an int, double, or string bid.  
-*Each method should display the bid and indicate whether it is over the minimum 
-*acceptable bid of $10.  If the bid is a string, accept it only if one of the 
-*follow is true: it is numeric and preceded with a dollar sign, or it is numeric 
-*and followed by the word dollars.  Otherwise, display a message that indicates the format was incorrect.
+* Purpose: Receive users bid. Check whether
+* bid is above minimum bid amount and meets
+* format.
+*
+* To compile the program:
+* csc Autcion.cs
+*
+* To execute the program:
+* Auction.exe (.exe optional)
 */
 
 using System;
@@ -37,12 +39,12 @@ namespace Auction
         private static void UserBid(int bid, int min)
         {
 
-            while (bid < min)
+            if (bid < min)
             {
-                Write("Minimum bid not placed. Bid again: ");
-                bid = Convert.ToInt32(ReadLine());
+                WriteLine("Your bid of {0} does not meet the minimum bid of {1}.", bid.ToString("C"), min.ToString("C"));
+               
             }
-            if(bid >= min)
+            else if(bid >= min)
             {
                 WriteLine("Thank you. Your bid of {0} is accepted.", bid.ToString("C"));
             }
@@ -50,12 +52,11 @@ namespace Auction
 
         private static void UserBid(double bid, int min)
         {
-            while (bid < min)
+            if (bid < min)
             {
-                Write("Minimum bid not placed. Bid again: ");
-                bid = Convert.ToDouble(ReadLine());
+                Write("Your bid of {0} does not meet the minimum bid of {1}.", bid.ToString("C"), min.ToString("C"));
             }
-            if (bid >= min)
+            else if (bid >= min)
             {
                 WriteLine("Thank you. Your bid of {0} is accepted.", bid.ToString("C"));
             }
@@ -65,27 +66,39 @@ namespace Auction
         {
             string dollars = "dollars";
             char moneySign = '$';
-            
+            double number;
 
-            if(bid.StartsWith(moneySign) == true)
+            //If user input starts with $ proceed to check if number value is high enough
+            if(bid.StartsWith(moneySign) == true && double.TryParse(bid.Substring(1), out number))
             {
-                WriteLine("Thank you. Your bid of {0} is accepted.", bid);
+                if(number < min)
+                {
+                    WriteLine("Your bid of {0} does not meet the minimum bid of {1}.", number.ToString("C"), min.ToString("C"));
+                }
+                 else if (number >= min)
+                {
+                    WriteLine("Thank you. Your bid of {0} is accepted.", bid);
+                }
 
             }
-            else if(bid.EndsWith(dollars) == true)
+            //If user input ends with dollars proceed to check if number value is high enough
+            else if (bid.EndsWith(dollars) == true && double.TryParse(bid.Substring(0, bid.IndexOf(dollars)), out number))
             {
-                WriteLine("Thank you. Your bid of {0} is accepted.", bid);
+                if (number < min)
+                {
+                    WriteLine("Your bid of {0} does not meet the minimum bid of {1}.", number.ToString("C"), min.ToString("C"));
+                }
+                else if (number >= min)
+                {
+                    WriteLine("Thank you. Your bid of {0} is accepted.", number.ToString("C"));
+                }
+
             }
+            //If format of starting with $ or ending with dollars is not met
             else
             {
-                WriteLine("Incorrect format. Follow example $XX or XX dollars");
-                Write("Bid again: ");
-                bid = Convert.ToString(ReadLine());
+                WriteLine("Incorrect format. Format should follow $XX or XX dollars");
             }
-
-        }
-
-        
-
+        }   
     }
 }
