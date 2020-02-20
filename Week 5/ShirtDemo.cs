@@ -1,13 +1,4 @@
-﻿/*
-*
-* Student Jaime Rodriguez
-* Bellevue University
-* CIS355
-*
-*/
-/* File ShirtDemo.cs */
 /*
-* Assignment 5.3
 * Purpose: Create two shirts from shirt class.
 * Display the shirts characteristics.
 *
