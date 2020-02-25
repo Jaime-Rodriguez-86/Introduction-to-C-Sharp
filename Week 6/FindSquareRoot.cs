@@ -1,13 +1,4 @@
-﻿/*
-*
-* Student Jaime Rodriguez
-* Bellevue University
-* CIS355
-*
-*/
-/* File FindSquareRoot.cs */
 /*
-* Assignment 6.3
 * Purpose: Return the square root value
 * of a users input
 *
