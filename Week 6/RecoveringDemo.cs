@@ -1,13 +1,4 @@
-﻿/*
-*
-* Student Jaime Rodriguez
-* Bellevue University
-* CIS355
-*
-*/
-/* File RecoveringDemo.cs */
 /*
-* Assignment 6.2
 * Purpose: Based on the the type of class
 * (patient, upholsterer, football player)
 * the output will display the class's
