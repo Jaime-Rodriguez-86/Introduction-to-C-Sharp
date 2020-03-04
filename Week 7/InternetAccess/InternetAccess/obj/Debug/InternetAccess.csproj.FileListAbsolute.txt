@@ -1,0 +1,9 @@
+C:\Users\jaimerodriguez\source\repos\InternetAccess\InternetAccess\obj\Debug\InternetAccess.csprojAssemblyReference.cache
+C:\Users\jaimerodriguez\source\repos\InternetAccess\InternetAccess\obj\Debug\InternetAccess.internetForm.resources
+C:\Users\jaimerodriguez\source\repos\InternetAccess\InternetAccess\obj\Debug\InternetAccess.Properties.Resources.resources
+C:\Users\jaimerodriguez\source\repos\InternetAccess\InternetAccess\obj\Debug\InternetAccess.csproj.GenerateResource.cache
+C:\Users\jaimerodriguez\source\repos\InternetAccess\InternetAccess\bin\Debug\InternetAccess.exe.config
+C:\Users\jaimerodriguez\source\repos\InternetAccess\InternetAccess\bin\Debug\InternetAccess.exe
+C:\Users\jaimerodriguez\source\repos\InternetAccess\InternetAccess\bin\Debug\InternetAccess.pdb
+C:\Users\jaimerodriguez\source\repos\InternetAccess\InternetAccess\obj\Debug\InternetAccess.exe
+C:\Users\jaimerodriguez\source\repos\InternetAccess\InternetAccess\obj\Debug\InternetAccess.pdb
