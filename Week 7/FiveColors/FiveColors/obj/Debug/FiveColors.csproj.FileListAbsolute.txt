@@ -1,0 +1,9 @@
+C:\Users\jaimerodriguez\source\repos\FiveColors\FiveColors\bin\Debug\FiveColors.exe.config
+C:\Users\jaimerodriguez\source\repos\FiveColors\FiveColors\bin\Debug\FiveColors.exe
+C:\Users\jaimerodriguez\source\repos\FiveColors\FiveColors\bin\Debug\FiveColors.pdb
+C:\Users\jaimerodriguez\source\repos\FiveColors\FiveColors\obj\Debug\FiveColors.csprojAssemblyReference.cache
+C:\Users\jaimerodriguez\source\repos\FiveColors\FiveColors\obj\Debug\FiveColors.colorForm.resources
+C:\Users\jaimerodriguez\source\repos\FiveColors\FiveColors\obj\Debug\FiveColors.Properties.Resources.resources
+C:\Users\jaimerodriguez\source\repos\FiveColors\FiveColors\obj\Debug\FiveColors.csproj.GenerateResource.cache
+C:\Users\jaimerodriguez\source\repos\FiveColors\FiveColors\obj\Debug\FiveColors.exe
+C:\Users\jaimerodriguez\source\repos\FiveColors\FiveColors\obj\Debug\FiveColors.pdb
