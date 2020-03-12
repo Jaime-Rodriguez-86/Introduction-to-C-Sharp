@@ -1,0 +1,9 @@
+C:\Users\jaimerodriguez\source\repos\GuessANumber\GuessANumber\bin\Debug\GuessANumber.exe.config
+C:\Users\jaimerodriguez\source\repos\GuessANumber\GuessANumber\bin\Debug\GuessANumber.exe
+C:\Users\jaimerodriguez\source\repos\GuessANumber\GuessANumber\bin\Debug\GuessANumber.pdb
+C:\Users\jaimerodriguez\source\repos\GuessANumber\GuessANumber\obj\Debug\GuessANumber.csprojAssemblyReference.cache
+C:\Users\jaimerodriguez\source\repos\GuessANumber\GuessANumber\obj\Debug\GuessANumber.guessForm.resources
+C:\Users\jaimerodriguez\source\repos\GuessANumber\GuessANumber\obj\Debug\GuessANumber.Properties.Resources.resources
+C:\Users\jaimerodriguez\source\repos\GuessANumber\GuessANumber\obj\Debug\GuessANumber.csproj.GenerateResource.cache
+C:\Users\jaimerodriguez\source\repos\GuessANumber\GuessANumber\obj\Debug\GuessANumber.exe
+C:\Users\jaimerodriguez\source\repos\GuessANumber\GuessANumber\obj\Debug\GuessANumber.pdb
