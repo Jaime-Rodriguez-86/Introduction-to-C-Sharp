@@ -1,0 +1,9 @@
+C:\Users\jaimerodriguez\source\repos\WordsOfWisdom\WordsOfWisdom\bin\Debug\WordsOfWisdom.exe.config
+C:\Users\jaimerodriguez\source\repos\WordsOfWisdom\WordsOfWisdom\bin\Debug\WordsOfWisdom.exe
+C:\Users\jaimerodriguez\source\repos\WordsOfWisdom\WordsOfWisdom\bin\Debug\WordsOfWisdom.pdb
+C:\Users\jaimerodriguez\source\repos\WordsOfWisdom\WordsOfWisdom\obj\Debug\WordsOfWisdom.csprojAssemblyReference.cache
+C:\Users\jaimerodriguez\source\repos\WordsOfWisdom\WordsOfWisdom\obj\Debug\WordsOfWisdom.Properties.Resources.resources
+C:\Users\jaimerodriguez\source\repos\WordsOfWisdom\WordsOfWisdom\obj\Debug\WordsOfWisdom.csproj.GenerateResource.cache
+C:\Users\jaimerodriguez\source\repos\WordsOfWisdom\WordsOfWisdom\obj\Debug\WordsOfWisdom.exe
+C:\Users\jaimerodriguez\source\repos\WordsOfWisdom\WordsOfWisdom\obj\Debug\WordsOfWisdom.pdb
+C:\Users\jaimerodriguez\source\repos\WordsOfWisdom\WordsOfWisdom\obj\Debug\WordsOfWisdom.wisdomForm.resources
