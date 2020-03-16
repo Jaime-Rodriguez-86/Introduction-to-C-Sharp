@@ -1,0 +1,10 @@
+/Users/jaimerodriguez/Projects/FileComparison/FileComparison/bin/Debug/netcoreapp3.1/FileComparison.deps.json
+/Users/jaimerodriguez/Projects/FileComparison/FileComparison/bin/Debug/netcoreapp3.1/FileComparison.runtimeconfig.json
+/Users/jaimerodriguez/Projects/FileComparison/FileComparison/bin/Debug/netcoreapp3.1/FileComparison.runtimeconfig.dev.json
+/Users/jaimerodriguez/Projects/FileComparison/FileComparison/bin/Debug/netcoreapp3.1/FileComparison.dll
+/Users/jaimerodriguez/Projects/FileComparison/FileComparison/bin/Debug/netcoreapp3.1/FileComparison.pdb
+/Users/jaimerodriguez/Projects/FileComparison/FileComparison/obj/Debug/netcoreapp3.1/FileComparison.csprojAssemblyReference.cache
+/Users/jaimerodriguez/Projects/FileComparison/FileComparison/obj/Debug/netcoreapp3.1/FileComparison.AssemblyInfoInputs.cache
+/Users/jaimerodriguez/Projects/FileComparison/FileComparison/obj/Debug/netcoreapp3.1/FileComparison.AssemblyInfo.cs
+/Users/jaimerodriguez/Projects/FileComparison/FileComparison/obj/Debug/netcoreapp3.1/FileComparison.dll
+/Users/jaimerodriguez/Projects/FileComparison/FileComparison/obj/Debug/netcoreapp3.1/FileComparison.pdb
